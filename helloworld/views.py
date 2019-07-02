@@ -24,19 +24,19 @@ def hello3(request):
 
 
 def counter_add(request):
-    c = Counter();
+    c = Counter()
     c.groupno = 1
     c.depth = 1
     c.orderno = 1
     c.save()
 
-    c = Counter();
+    c = Counter()
     c.groupno = 1
     c.depth = 1
     c.orderno = 2
     c.save()
 
-    c = Counter();
+    c = Counter()
     c.groupno = 1
     c.depth = 1
     c.orderno = 3
